@@ -3,7 +3,7 @@ import './styles.css'
 
 import list from './assets/paper-list.png'
 
-class Recipe extends Component {
+class Ingredients extends Component {
     render() {
         return (
             <section>
@@ -12,4 +12,4 @@ class Recipe extends Component {
         )
     }
 }
-export default Recipe;
+export default Ingredients;

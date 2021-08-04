@@ -3,13 +3,14 @@ import Header from "./Header.js";
 import Main from './Main.js'
 import Footer from "./Footer.js";
 import Recipe from "./Ingredient-List.js";
+import Ingredients from "./Ingredient-List.js";
 class App extends Component {
   render() {
     return (
       <>
       <Header />
       <Main />
-      <Recipe />
+      <Ingredients />
       <Footer />
       </>
     );
