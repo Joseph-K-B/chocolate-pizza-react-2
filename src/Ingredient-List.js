@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import './styles.css'
+import './recipe.css'
 
-import list from './assets/paper-list.png'
+// import list from './assets/paper-list.png'
 
 class Ingredients extends Component {
     render() {
         return (
-            <section>
-                <div id='notepad'>
-                <img src={list} alt='notepad'>
-                </img>
+            <section class='recipe-list'>
+                <div class='notepad'>
+                {/* <img src={list} alt='notepad'> */}
+                {/* </img> */}
                 <ul id='left-list'>
                     <li>1/2 cups milk</li>
                     <li>1/1 cup mascarpone</li>

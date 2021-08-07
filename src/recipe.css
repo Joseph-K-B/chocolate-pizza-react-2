@@ -1,0 +1,22 @@
+.notepad{
+    background-image: url(./assets/paper-list.png);
+    background-repeat: no-repeat;
+    height: 16rem;
+    width: 35rem;
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+#left-list{
+    margin-top: 4%;
+    margin-left: 5%;
+    padding: 16.15%;
+    font-size: 1.1rem;
+    
+}
+#right-list{
+    margin-left: 5.2%;
+    margin-top: 1.45%;
+    padding: 14.15%;
+    font-size: 1.1rem;
+}
