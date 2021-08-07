@@ -30,10 +30,10 @@ class Header extends Component {
                 </nav>
                     <div>
                         <h1>Delicious!</h1>
+                <hr />
                         <h3>The best food blog on the web</h3>
                     </div>
                 </div>
-                <hr />
             </header>
         )
     }

@@ -11,13 +11,15 @@ class Main extends Component {
                 <section className='top-section'/>
                 <section id='pizza'>
                     <div>
-                        <h1>Chocolate Pizza</h1>
+                        <h1 id='title'>Chocolate Pizza</h1>
                         <h2>Posted December 15th 2013</h2>
                     </div>
-                    <div>
+                    <div id='print' >
                         <h3><img src={ print } alt='Print this recipe' />Print</h3>
                     </div>
+                    <div class='main-image'>
                     <img src={ pizzaPic } alt='chocolate pizza' />
+                    </div>
                     <div>
                         <ul>
                             <li>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and left cool completely.</li>

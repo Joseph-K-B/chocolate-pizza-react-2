@@ -3,3 +3,21 @@ nav{
     flex-direction: row;
     justify-content: flex-end;
 }
+#print{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#title{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.main-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    width: 30rem;
+}
